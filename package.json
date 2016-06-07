@@ -1,0 +1,56 @@
+{
+  "name": "now-auto-alias",
+  "version": "0.0.1",
+  "description": "Utility to automatically create an alias for your last deployment in zeit.co/now service",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreleite/now-auto-alias.git"
+  },
+  "keywords": [
+    "now",
+    "zeit"
+  ],
+  "author": "André Leite <andre@andre.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreleite/now-auto-alias/issues"
+  },
+  "babel": {
+    "presets": [
+      "node6"
+    ]
+  },
+  "homepage": "https://github.com/andreleite/now-auto-alias#readme",
+  "bin": {
+    "now-auto-alias": "./bin/now-auto-alias"
+  },
+  "devDependencies": {
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=5"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  }
+}
