@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-require('babel-register')
-require("babel-polyfill");
+console.log('> Applying alias automatically')
 
-require('./../lib/index.js').run()
+require('babel-register')
+require('babel-polyfill')
+
+require('./../lib/index').run()
