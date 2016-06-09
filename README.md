@@ -1,3 +1,3 @@
-# now-auto-alias
+# now-automator
 
-Utility to automatically create an alias for your last deployment in zeit.co/now service
+Utility to automate tasks in zeit.co/now service
