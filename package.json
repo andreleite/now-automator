@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/andreleite/now-auto-alias#readme",
   "bin": {
-    "now-auto-alias": "./bin/now-auto-alias"
+    "now-automator": "./bin/now-automator"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
