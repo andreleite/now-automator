@@ -1,6 +1,6 @@
 {
   "name": "now-auto-alias",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility to automatically create an alias for your last deployment in zeit.co/now service",
   "main": "index.js",
   "scripts": {
