@@ -1,1 +1,8 @@
 language: node_js
+deploy:
+  provider: npm
+  email: andre@andre.io
+  api_key:
+    secure: Fsjj09fVlBM5L7WJn1u8MQgsan13EenxHPQrbL/1zvnnfSBa8LAtyDxLKRBIRN86Pkq0/3+6Lgi0zCiEk048xoVvWijTQ02PZROfrje3R4X6FL++KmHEU/92hWp7lQqdt9Wx8qRsSXYckP2xqkzGykdLtVxW5XDk2VelncCvYRfmx5Tf8mBVEtAYauSLVwUbLGfhA+tYn2jm0TOZYvrkeTXc9cXNmhLvhjBAM/NrODX3bLtk0C5asS3sUI7u9ZWdFk1i7iKnkRF0PVjp5mZy3NkWkf/u7xMuA133M0MLj9l4lZrvQAlv2r1bBBksnNGqUPQrSyQccv1RFzx48kGqBrk4W8N0d8+hiQjDesOi9IkffHZaOBYz7EgndqI0+3+SmwrhzQohhSDSDDbGWkNygRh0ptIldI/1tISm945nbnLCdiKJ2bJ/trB8f0aiaXSmqfgpo3MOdBOfxjnFl/vBhQwEXyOOKpaN4Ety3bORz2SSlrNehWy2Bpxb+k+O3ayT24C97Q9xprRfX+q3mFpfYTAfTgO/CAfv/B3uFHB4siIEnI7wFttb95Pow2FuUnwBch9CGo03v2q19GxaH99L4WxVW/UkUkL7o4jX4cdllZ94RbfeAih0+RH47Wt4EPpNskO1znPs+NAqALeVIg7taYGz48xluuuoghUhM7OwT90=
+  on:
+    repo: andreleite/now-auto-alias

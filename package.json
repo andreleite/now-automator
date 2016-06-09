@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "test": "mocha --compilers js:babel-register"
+    "test": "standard && mocha --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
