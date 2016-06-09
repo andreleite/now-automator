@@ -1,5 +1,4 @@
 language: node_js
-before_deploy: "npm version patch"
 deploy:
   provider: npm
   email: andre@andre.io
