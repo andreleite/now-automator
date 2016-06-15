@@ -1,6 +1,6 @@
 {
   "name": "now-automator",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Utility to automate tasks in zeit.co/now service",
   "main": "index.js",
   "scripts": {
