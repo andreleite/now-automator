@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-console.log('> Starting now-automator')
-
 require('babel-register')
 require('babel-polyfill')
 
