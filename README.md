@@ -26,5 +26,5 @@ Commands:
 ## How to use
 
 ```
-now && now-automator auto-apply-alias && node-automator remove-old-deployments
+now && now-automator auto-apply-alias && now-automator remove-old-deployments
 ```
