@@ -5,6 +5,12 @@
 
 Utility to automate tasks in zeit.co/now service
 
+## Instalation
+
+```
+npm install now-automator -g
+```
+
 ## Usage
 
 ```
@@ -15,4 +21,10 @@ Commands:
   auto-apply-alias             apply last alias of project in last deployment
   remove-old-deployments       remove all old deploys
   help                         this help
+```
+
+## How to use
+
+```
+now && now-automator auto-apply-alias && node-automator remove-old-deployments
 ```
