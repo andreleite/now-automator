@@ -1,5 +1,6 @@
 # now-automator
 
+[![NPM](https://nodei.co/npm/now-automator.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/now-automator/)
 [![Build Status](https://travis-ci.org/andreleite/now-automator.svg?branch=master)](https://travis-ci.org/andreleite/now-automator)
 [![npm](https://img.shields.io/npm/v/now-automator.svg?maxAge=2592000)](https://www.npmjs.com/package/now-automator)
 
