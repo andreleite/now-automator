@@ -18,7 +18,7 @@ const getAliasesOutput = [
 
 describe('aliasesInfo', () => {
   describe('#getAliases', () => {
-    it.only('should return aliases', async () => {
+    it('should return aliases', async () => {
       sinon.stub(cmd, 'cmdExtract').returns(cmdOutput)
 
       expect(await getAliases()).toEqual(getAliasesOutput)
